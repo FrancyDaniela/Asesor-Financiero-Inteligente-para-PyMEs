@@ -1,0 +1,13 @@
+# Entornos virtuales 
+venv/ 
+.venv/ 
+env/ 
+# Variables de entorno secretas (¡Nunca subir el .env real!) 
+.env 
+# Archivos de Python y Jupyter 
+__pycache__/
+*.pyc 
+.ipynb_checkpoints/ 
+# Pesos de modelos si superan los 100 MB 
+# models/\*.h5 
+# models/\*.keras

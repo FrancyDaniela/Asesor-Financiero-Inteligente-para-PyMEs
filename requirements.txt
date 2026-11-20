@@ -1,0 +1,13 @@
+tensorflow 
+scikit-learn 
+pandas 
+numpy 
+matplotlib 
+seaborn 
+langchain 
+langgraph 
+langchain-google-genai 
+streamlit 
+python-dotenv 
+jupyter 
+joblib
