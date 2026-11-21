@@ -16,23 +16,25 @@ Darwin Andres Saavedra Araque (55221510)
 
 Sección 2 - Arquitectura del Sistema (Diagrama Propio)
 
-Usuario
+                                                                                     Usuario
 
-app.py (Streamlit)
+                                                                               app.py (Streamlit)
 
-src/agente.py (AgenteReAct LangGraph + Gemini)
+                                                                     src/agente.py (AgenteReAct LangGraph + Gemini)
 
-MemorySaver (por thread_id)
 
-evaluar_riesgo_neuronal_tool
+                    MemorySaver (por thread_id)                                 evaluar_riesgo_neuronal_tool                                       calcular_capacidad_pago_tool
 
-calcular_capacidad_pago_tool
 
-src/inferencia.py
 
-models/modelo_microcredito.keras
 
-models/scaler_microcredito.pkl
+
+                                                                                     src/inferencia.py
+
+
+                                          models/modelo_microcredito.keras                                         models/scaler_microcredito.pkl
+
+
 
 
 
