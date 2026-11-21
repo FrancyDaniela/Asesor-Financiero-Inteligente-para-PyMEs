@@ -254,7 +254,7 @@ pip install -r requirements.txt
 
 cp .env.example .env # Windows: copy .env.example .env
 
-# y escribir la clave real en GOOGLE_API_KEY
+#  Escribir la clave real en GOOGLE_API_KEY
 
 
 
